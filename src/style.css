@@ -159,3 +159,23 @@
     animation: none !important;
   }
 }
+
+/* Final CTA — warmer olive treatment */
+.final-cta-card {
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(107, 122, 82, 0.55), transparent 55%),
+    radial-gradient(ellipse at 90% 100%, rgba(184, 106, 76, 0.28), transparent 50%),
+    linear-gradient(145deg, #3f4735 0%, #2f3429 48%, #3a332c 100%);
+}
+
+.final-cta-action a {
+  background-color: #f6f1ea;
+  color: #556341;
+  box-shadow: 0 4px 24px rgba(42, 39, 35, 0.12);
+}
+
+.final-cta-action a:hover {
+  background-color: #faf7f2;
+  color: #3f4735;
+  box-shadow: 0 12px 40px rgba(42, 39, 35, 0.16);
+}
