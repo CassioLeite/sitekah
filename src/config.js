@@ -43,16 +43,14 @@ export const siteConfig = {
   ],
 
   seo: {
-    title: 'Contabilidade online para profissionais de tecnologia',
+    title: 'Contabilidade para Profissionais de Tecnologia | Minha Contábil',
     description:
-      'Contabilidade online para desenvolvedores, freelancers e profissionais de tech, com atendimento humano de uma contadora de verdade.',
-    // PLACEHOLDER: URL canônica após publicar
-    canonicalUrl: 'https://SEU-USUARIO.github.io/sitekah/',
-    // PLACEHOLDER: URL absoluta da imagem OG
-    ogImage: 'https://SEU-USUARIO.github.io/sitekah/og-image.svg',
-    ogTitle: 'Contabilidade online para profissionais de tecnologia',
+      'Contabilidade online para profissionais de tecnologia, devs PJ, freelancers e consultores. Atendimento humano, claro e próximo com uma contadora de verdade.',
+    canonicalUrl: 'https://minhacontabil.com.br/',
+    ogImage: 'https://minhacontabil.com.br/og-image.svg',
+    ogTitle: 'Contabilidade para Profissionais de Tecnologia | Minha Contábil',
     ogDescription:
-      'Atendimento próximo de uma contadora de verdade. Abra, regularize ou cuide do seu CNPJ com clareza.',
+      'Contabilidade online para profissionais de tecnologia, devs PJ, freelancers e consultores. Atendimento humano, claro e próximo com uma contadora de verdade.',
   },
 }
 

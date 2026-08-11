@@ -30,7 +30,7 @@ const aboutTrust = [
           >
             <img
               :src="karinyPhoto"
-              alt="Kariny, contadora especializada em atendimento para profissionais de tecnologia"
+              alt="Kariny Sopranzi, contadora especializada em atendimento para profissionais de tecnologia"
               class="absolute inset-0 h-full w-full object-cover object-top"
               width="800"
               height="1000"

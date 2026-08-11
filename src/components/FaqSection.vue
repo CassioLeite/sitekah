@@ -71,9 +71,15 @@ function toggle(index) {
 
       <div
         class="mt-8 divide-y divide-mist rounded-3xl border border-mist bg-parchment shadow-soft sm:mt-10"
+        role="list"
       >
-        <div v-for="(faq, index) in faqs" :key="faq.q" class="px-4 sm:px-6">
-          <h3>
+        <div
+          v-for="(faq, index) in faqs"
+          :key="faq.q"
+          class="px-4 sm:px-6"
+          role="listitem"
+        >
+          <h3 :id="`faq-question-${index}`">
             <button
               type="button"
               class="flex w-full items-center justify-between gap-3 py-4 text-left sm:gap-4 sm:py-5"
@@ -97,6 +103,8 @@ function toggle(index) {
             :id="`faq-panel-${index}`"
             v-show="openIndex === index"
             class="pb-4 sm:pb-5"
+            role="region"
+            :aria-labelledby="`faq-question-${index}`"
           >
             <p class="text-sm leading-relaxed text-charcoal-muted sm:text-base">
               {{ faq.a }}
