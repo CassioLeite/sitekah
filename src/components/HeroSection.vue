@@ -1,6 +1,7 @@
 <script setup>
 import WhatsAppButton from './WhatsAppButton.vue'
 import { siteConfig } from '../config'
+import heroOrganicBg from '../assets/hero-organic-bg.png'
 </script>
 
 <template>
@@ -8,20 +9,38 @@ import { siteConfig } from '../config'
     id="inicio"
     class="relative overflow-hidden pt-24 pb-16 sm:pt-28 sm:pb-20 md:pt-36 md:pb-28"
   >
+    <!-- Base cream — left stays light for readability -->
     <div
-      class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(217,203,179,0.55),transparent_55%),radial-gradient(ellipse_at_90%_20%,rgba(107,122,82,0.12),transparent_45%),linear-gradient(180deg,#f6f1ea_0%,#faf7f2_60%,#faf7f2_100%)]"
-      aria-hidden="true"
-    />
-    <div
-      class="pointer-events-none absolute -right-20 top-32 h-72 w-72 rounded-full bg-champagne/40 blur-3xl animate-soft-float"
-      aria-hidden="true"
-    />
-    <div
-      class="pointer-events-none absolute -left-16 bottom-10 h-56 w-56 rounded-full bg-olive/10 blur-3xl"
+      class="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,#f6f1ea_0%,#faf7f2_55%,#faf7f2_100%)]"
       aria-hidden="true"
     />
 
-    <div class="relative mx-auto max-w-6xl px-5 md:px-8">
+    <!-- Decorative organic artwork — right side only, soft left blend -->
+    <div
+      class="hero-art pointer-events-none absolute inset-y-0 right-0 z-0 w-[82%] overflow-hidden sm:w-[74%] md:w-[68%] lg:w-[64%]"
+      aria-hidden="true"
+    >
+      <!-- Dedicated transform layer so positioning utilities don't fight the animation -->
+      <div class="hero-art-drift absolute inset-0">
+        <img
+          :src="heroOrganicBg"
+          alt=""
+          class="hero-art-img absolute -right-[14%] top-[-4%] h-[108%] w-[118%] max-w-none object-cover object-[86%_center] opacity-[0.38] sm:opacity-[0.43] md:object-[92%_center] md:opacity-[0.47]"
+          width="1024"
+          height="682"
+          decoding="async"
+          fetchpriority="low"
+        />
+      </div>
+    </div>
+
+    <!-- Cream veil: protects the text column and softens mid-frame invasion -->
+    <div
+      class="pointer-events-none absolute inset-0 z-[1] bg-[linear-gradient(90deg,#faf7f2_0%,#faf7f2_38%,rgba(250,247,242,0.94)_50%,rgba(250,247,242,0.62)_60%,rgba(250,247,242,0.28)_70%,rgba(250,247,242,0.08)_82%,transparent_92%)] sm:bg-[linear-gradient(90deg,#faf7f2_0%,#faf7f2_32%,rgba(250,247,242,0.9)_44%,rgba(250,247,242,0.5)_56%,rgba(250,247,242,0.18)_68%,rgba(250,247,242,0.05)_80%,transparent_90%)]"
+      aria-hidden="true"
+    />
+
+    <div class="relative z-10 mx-auto max-w-6xl px-5 md:px-8">
       <div class="max-w-3xl">
         <p
           class="animate-fade-up mb-4 text-sm font-medium tracking-wide text-olive sm:mb-5"
