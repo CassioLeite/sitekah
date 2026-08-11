@@ -14,7 +14,7 @@ export const siteConfig = {
     // Nome completo da contadora
     name: 'Kariny Sopranzi',
     // Registro CRC
-    crc: 'SP338629',
+    crc: 'CRC: SP338629',
     // Bio curta em 2–3 frases
     bio: 'Atendo pessoas e profissionais de tecnologia que precisam de clareza para abrir, regularizar ou cuidar do CNPJ. Explico o que importa na prática — sem jargão desnecessário.',
     // Iniciais usadas em fallbacks visuais
