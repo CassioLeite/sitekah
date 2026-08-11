@@ -16,7 +16,7 @@ export const siteConfig = {
     // PLACEHOLDER: registro CRC real (ex.: CRC SP 000000/O-0)
     crc: 'CRC XX 000000/O-0',
     // PLACEHOLDER: bio curta em 2–3 frases
-    bio: 'Atendo profissionais de tecnologia que precisam de clareza para abrir, regularizar ou cuidar do CNPJ. Explico o que importa na prática — sem jargão desnecessário.',
+    bio: 'Atendo pessoas e profissionais de tecnologia que precisam de clareza para abrir, regularizar ou cuidar do CNPJ. Explico o que importa na prática — sem jargão desnecessário.',
     // Iniciais usadas no placeholder visual da foto (trocar quando houver foto real)
     initials: 'NC',
     photoAlt: 'Foto profissional da contadora (placeholder — substituir)',
