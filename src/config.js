@@ -11,15 +11,15 @@ export const siteConfig = {
     'Contabilidade online para profissionais de tecnologia, com atendimento próximo de uma contadora de verdade.',
 
   accountant: {
-    // PLACEHOLDER: nome completo da contadora
-    name: '[Nome da Contadora]',
-    // PLACEHOLDER: registro CRC real (ex.: CRC SP 000000/O-0)
-    crc: 'CRC XX 000000/O-0',
-    // PLACEHOLDER: bio curta em 2–3 frases
+    // Nome completo da contadora
+    name: 'Kariny Sopranzi',
+    // Registro CRC
+    crc: 'SP338629',
+    // Bio curta em 2–3 frases
     bio: 'Atendo pessoas e profissionais de tecnologia que precisam de clareza para abrir, regularizar ou cuidar do CNPJ. Explico o que importa na prática — sem jargão desnecessário.',
-    // Iniciais usadas no placeholder visual da foto (trocar quando houver foto real)
-    initials: 'NC',
-    photoAlt: 'Foto profissional da contadora (placeholder — substituir)',
+    // Iniciais usadas em fallbacks visuais
+    initials: 'KS',
+    photoAlt: 'Kariny Sopranzi, contadora especializada em atendimento para profissionais de tecnologia',
     quote:
       'Meu objetivo é que você entenda sua empresa sem precisar decifrar contabilidade.',
   },

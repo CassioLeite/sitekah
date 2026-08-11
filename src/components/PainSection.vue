@@ -1,12 +1,12 @@
 <script setup>
 const pains = [
-  'Não sei se devo abrir MEI, SLU ou LTDA',
-  'Tenho medo de emitir nota errado',
-  'Não sei quanto separar para imposto',
-  'Vou trabalhar como PJ e não sei por onde começar',
-  'Meu contador atual não me explica nada',
-  'Recebo do exterior e não sei como declarar',
-  'Quero previsibilidade, não surpresa',
+  'Não sei se devo abrir MEI, SLU ou LTDA.',
+  'Tenho medo de emitir nota errado.',
+  'Não sei quanto separar para impostos.',
+  'Vou começar como PJ e não sei por onde começar.',
+  'Meu contador atual não explica o que está acontecendo.',
+  'Recebo ou posso receber do exterior e tenho dúvidas.',
+  'Quero previsibilidade, não surpresa.',
 ]
 </script>
 
@@ -23,9 +23,8 @@ const pains = [
             PJ.
           </h2>
           <p class="mt-5 text-base leading-relaxed text-charcoal-muted sm:text-lg">
-            A dúvida costuma ser a mesma: o que fazer agora, do jeito certo, sem
-            perder tempo decifrando regras. Alguém precisa traduzir a
-            contabilidade para o seu dia a dia.
+            A maioria dos problemas começa quando o profissional vira PJ sem
+            orientação clara.
           </p>
         </div>
 

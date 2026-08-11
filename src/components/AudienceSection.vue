@@ -1,36 +1,36 @@
 <script setup>
 const audiences = [
   {
-    title: 'Desenvolvedores PJ',
-    desc: 'Quem emite nota, fecha contrato e quer saber quanto separar de imposto todo mês.',
+    title: 'Dev PJ emitindo nota',
+    desc: 'Para quem presta serviço como pessoa jurídica e precisa manter impostos e obrigações em ordem.',
   },
   {
-    title: 'Freelancers de tecnologia',
-    desc: 'Projetos variados, clientes diferentes — e a necessidade de manter o CNPJ em ordem.',
+    title: 'Freelancer de tecnologia',
+    desc: 'Para quem atende clientes diferentes e quer clareza sobre notas, impostos e organização.',
   },
   {
-    title: 'Consultores de software',
-    desc: 'Contratos recorrentes que pedem enquadramento certo desde o começo.',
+    title: 'Consultor com contrato recorrente',
+    desc: 'Para quem tem contratos mensais e precisa de previsibilidade no CNPJ.',
   },
   {
-    title: 'Product managers PJ',
-    desc: 'Profissionais de produto no modelo PJ, com rotina de entrega e nota fiscal.',
+    title: 'Profissional remoto',
+    desc: 'Para quem trabalha de onde estiver, mas quer a empresa organizada no Brasil.',
   },
   {
-    title: 'Designers UX/UI PJ',
-    desc: 'Designers contratados que precisam de CNPJ organizado, sem complicar o dia a dia.',
+    title: 'Product manager PJ',
+    desc: 'Para quem entrega produto no modelo PJ e precisa de notas e impostos sem ruído.',
   },
   {
-    title: 'Profissionais remotos',
-    desc: 'Quem trabalha de qualquer lugar — para empresas no Brasil ou em outro estado.',
+    title: 'Designer UX/UI PJ',
+    desc: 'Para quem atua por contrato e quer o CNPJ organizado, sem complicar a rotina.',
   },
   {
     title: 'MEI que cresceu',
-    desc: 'Quando o faturamento ou a atividade pedem migração para ME, com planejamento.',
+    desc: 'Para quem passou do limite, mudou de atividade ou precisa migrar para ME.',
   },
   {
     title: 'CLT virando PJ',
-    desc: 'Abrir empresa, emitir a primeira nota e separar bem pessoa física e jurídica.',
+    desc: 'Para quem recebeu uma proposta PJ e quer entender o impacto antes de decidir.',
   },
 ]
 </script>
@@ -45,8 +45,9 @@ const audiences = [
           Feito para quem trabalha com tecnologia
         </h2>
         <p class="mt-4 text-base leading-relaxed text-charcoal-muted sm:text-lg">
-          Atendimento pensado para quem presta serviço, entrega produto e vive de
-          contrato — no Brasil ou recebendo do exterior.
+          Se você trabalha como PJ em tecnologia, sua contabilidade precisa
+          acompanhar sua rotina: contratos, notas, impostos, recebimentos e
+          decisões que não podem ficar no escuro.
         </p>
       </div>
 
