@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 // Ex.: se o repo for `usuario/sitekah`, use `base: '/sitekah/'`.
 // Para domínio customizado na raiz, use `base: '/'`.
 export default defineConfig({
-  base: '/sitekah/',
+  base: '/',
   plugins: [vue(), tailwindcss()],
 })
