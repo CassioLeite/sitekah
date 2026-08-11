@@ -1,0 +1,81 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream: #f6f1ea;
+  --color-cream-dark: #ebe3d6;
+  --color-parchment: #faf7f2;
+  --color-charcoal: #2a2723;
+  --color-charcoal-muted: #5c574f;
+  --color-olive: #6b7a52;
+  --color-olive-dark: #556341;
+  --color-terracotta: #b86a4c;
+  --color-terracotta-dark: #9a553c;
+  --color-champagne: #d9cbb3;
+  --color-champagne-light: #ebe2d2;
+  --color-sand: #c4b39a;
+  --color-mist: #e8e2d8;
+
+  --shadow-soft: 0 4px 24px rgba(42, 39, 35, 0.06);
+  --shadow-card: 0 8px 32px rgba(42, 39, 35, 0.07);
+  --shadow-lift: 0 12px 40px rgba(42, 39, 35, 0.1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-parchment font-sans text-charcoal antialiased;
+  }
+
+  ::selection {
+    @apply bg-champagne text-charcoal;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes soft-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fade-up 0.7s ease-out 0.12s both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.7s ease-out 0.24s both;
+}
+
+.animate-soft-float {
+  animation: soft-float 6s ease-in-out infinite;
+}
